@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>about</title>
+        <style>
+            body{
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            max-width: 1200px;
+            min-width: 600px;
+            background-color: white;
+        }
+        nav{
+            height:80px;
+            width:100%;
+            background-color:black ;
+            overflow:auto;
+        }
+        ul{
+            width:100%;
+            padding:0;
+            margin: 0 0 0 150px;
+            list-style:none ;
+        }
+        li{
+            float:left;
+        }
+        .logo img{
+            position:absolute;
+            margin-top: auto;
+            margin-left: auto;
+        }
+        nav a{
+            width:100px;
+            font-size: 20px;
+            display: block;
+            padding:20px 15px;
+            text-decoration: none;
+            font-family: Arial;
+            color: #f2f2f2;
+            text-align: right;
+        }
+            .about{
+                width:100%;
+                padding: 78px 0px; 
+            }
+            .about-text{
+                width:550px;
+            }
+            .main{
+                width: 1130px;
+                max-width: 95%;
+                margin:0;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .about-text{
+                color:gray;
+                font-size: 20px;
+                text-transform: capitalize;
+                /* margin-bottom: 5px; */
+                letter-spacing:2px ;
+            }
+            .values{
+                margin:0;
+                font-size: 20px;
+                text-transform: capitalize;
+                /* margin-bottom: 5px; */
+                letter-spacing:2px ;
+            }
+             .header{
+                font-size: 18px;
+                /* text-transform: capitalize; */
+                margin-bottom: 25px;
+                /* letter-spacing:1px ; */
+                align-items: center; 
+            }
+            .body{
+                font-size: 13px;
+                /* text-transform: capitalize; */
+                margin-bottom: 25px;
+                /* letter-spacing:1px ; */
+            }
+
+            .teams{
+                margin-top: 10%;
+            }
+            .teams h1{
+                font-family: arial;
+                font-size: 52px;
+                margin-bottom: 60px;
+                text-align: center;
+            }
+            .values{
+                float:right;
+                text-align: center;
+                width: auto;
+                justify-content: center;
+            }
+            .values h3{
+                color:rgb(179, 75, 75) ;
+            }
+            .topic{
+                text-align: center;
+                width: auto;
+                justify-content: center;
+                color:rgb(179, 75, 75);
+                margin:0;
+                font-size: 25px;
+                text-transform: capitalize;
+                /* margin-bottom: 5px; */
+                letter-spacing:2px ;
+            }
+            .values .foods{
+                background-color: beige;
+                margin: 5px;
+                margin-bottom: 50px;
+                width:300px;
+                padding:20px;
+                line-height: 20px;
+                color: black;
+                position:relative;
+            }
+            div.bigimage{
+	    width: 100vw;
+	    height: 20vw;
+	    position: relative;
+        background-color:beige;
+	    /* background-image: url('cakess.jpg'); */
+	    background-size: cover;
+  
+
+}
+
+div.overlay{
+	 background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.5); 
+    color: white;
+    font-weight: bold;
+    border: 1px solid;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    padding: 10px;
+    text-align: center;;
+
+}
+
+
+            table{
+	    width: 100vw;
+	    height: 20vw;
+	    position: relative;
+        background-color:beige;
+	    background-size: cover;
+           } 
+           tr{
+            /* text-align: center; */
+            color: #f2f2f2;
+            font-family: Arial;
+            font-size: 16px;
+            text-transform: capitalize;
+            color:#ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color:#bbbbbb;
+           }
+           a{
+            text-align: center;
+            color: #bbbbbb;
+            display:block;
+            width:100px;
+            height:10px;
+           }
+           th{
+            color:rgb(179, 75, 75) ;
+           }
+           .box{
+            height:fit-content;
+           }
+        </style>
+    </head>
+</html>
